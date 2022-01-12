@@ -59,6 +59,10 @@
     height: 300px;
     width: 300px;
     border: 2px dashed black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .game-area {
@@ -83,13 +87,10 @@
     margin: 15px;
   }
   
-  .img-card:hover{
-    transform: translateY(-20px);
-    transition: transform 200ms ease-in-out;
-  }
 
   /* drag and drop */
 
   .hovered {
     background: #f4f4f4;
 }
+
